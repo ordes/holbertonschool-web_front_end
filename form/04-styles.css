@@ -711,9 +711,7 @@ textarea:focus {
 	background-color: var(--color-light-grey);
 }
 
-input[type="text"]:focus::placeholder,
-input[type="email"]:focus::placeholder,
-textarea:focus::placeholder {
-	font-style: italic;
-	font-size: var(--font-size-small);
+::placeholder {
+  font-style: italic;
+  font-size: var(--font-size-small);
 }
